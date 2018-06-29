@@ -1,0 +1,353 @@
+Operating System Simulator
+==========================
+
+Begin Simulation
+Time:  0.000000, System Start
+Time:  0.000011, OS: Begin PCB Creation
+Time:  0.000016, OS: All processes initialized in New state
+Time:  0.000020, OS: All processes now set in Ready state
+Time:  0.000023, OS: Process 0 set in Running state
+Time:  0.000027, Process 0, Memory management allocate action start
+Time:  0.000031, Process 0, Memory management allocate action end
+Time:  0.000035, OS: Process 0 set in Ready state
+
+Time:  0.000038, OS: FCFS-P Strategy selects Process 0 with time: 10600 mSec 
+Time:  0.000044, OS: Process 0 set in Running state
+Time:  0.000047, Process 0, hard drive input start
+Time:  0.000131, OS: Process 0 set in Blocked state
+
+Time:  0.000137, OS: FCFS-P Strategy selects Process 1 with time: 5280 mSec 
+Time:  0.000143, OS: Process 1 set in Running state
+Time:  0.000146, Process 1, hard drive input start
+Time:  0.000263, OS: Process 1 set in Blocked state
+
+Time:  0.000268, OS: FCFS-P Strategy selects Process 2 with time: 9420 mSec 
+Time:  0.000274, OS: Process 2 set in Running state
+Time:  0.000277, Process 2, Memory management access action start
+Time:  0.000281, Process 2, Memory management access action end
+Time:  0.000285, OS: Process 2 set in Ready state
+
+Time:  0.000288, OS: FCFS-P Strategy selects Process 2 with time: 9420 mSec 
+Time:  0.000294, OS: Process 2 set in Running state
+Time:  0.000298, Process 2, printer output start
+Time:  0.000372, OS: Process 2 set in Blocked state
+
+Time:  0.000377, OS: FCFS-P Strategy selects Process 3 with time: 4420 mSec 
+Time:  0.000383, OS: Process 3 set in Running state
+Time:  0.000387, Process 3, Run operation start
+Time:  0.000390, OS: Process 3 set in Ready state
+
+Time:  0.000394, OS: FCFS-P Strategy selects Process 4 with time: 4100 mSec 
+Time:  0.000400, OS: Process 4 set in Running state
+Time:  0.000403, Process 4, hard drive output start
+Time:  0.000484, OS: Process 4 set in Blocked state
+
+Time:  0.000489, OS: FCFS-P Strategy selects Process 3 with time: 4290 mSec 
+Time:  0.000495, OS: Process 3 set in Running state
+Time:  0.000499, Process 3, Run operation start
+Time:  0.000503, OS: Process 3 set in Ready state
+
+Time:  0.000506, OS: FCFS-P Strategy selects Process 3 with time: 4200 mSec 
+Time:  0.000512, OS: Process 3 set in Running state
+Time:  0.000516, Process 3, printer output start
+Time:  0.000603, OS: Process 3 set in Blocked state
+Time:  0.000611, Processor/System Idle start
+Time:  0.085741, Processor/System Idle end
+
+Time:  0.085829, OS: FCFS-P Strategy selects Process 1 with time: 4860 mSec 
+Time:  0.085870, OS: Process 1 set in Running state
+Time:  0.085889, Process 1, hard drive input start
+Time:  0.086047, OS: Process 1 set in Blocked state
+Time:  0.086056, Processor/System Idle start
+Time:  0.101240, Processor/System Idle end
+
+Time:  0.101250, OS: FCFS-P Strategy selects Process 4 with time: 3560 mSec 
+Time:  0.101260, OS: Process 4 set in Running state
+Time:  0.101269, Process 4, printer output start
+Time:  0.101424, OS: Process 4 set in Blocked state
+Time:  0.101432, Processor/System Idle start
+Time:  0.132286, Processor/System Idle end
+
+Time:  0.132303, OS: FCFS-P Strategy selects Process 0 with time: 9940 mSec 
+Time:  0.132311, OS: Process 0 set in Running state
+Time:  0.132318, Process 0, hard drive output start
+Time:  0.132481, OS: Process 0 set in Blocked state
+
+Time:  0.132487, OS: FCFS-P Strategy selects Process 3 with time: 3500 mSec 
+Time:  0.132494, OS: Process 3 set in Running state
+Time:  0.132498, Process 3, hard drive input start
+Time:  0.132583, OS: Process 3 set in Blocked state
+Time:  0.132591, Processor/System Idle start
+Time:  0.147926, Processor/System Idle end
+
+Time:  0.147938, OS: FCFS-P Strategy selects Process 2 with time: 8620 mSec 
+Time:  0.147950, OS: Process 2 set in Running state
+Time:  0.147956, Process 2, printer output start
+Time:  0.148159, OS: Process 2 set in Blocked state
+Time:  0.148168, Processor/System Idle start
+Time:  0.241947, Processor/System Idle end
+
+Time:  0.241960, OS: FCFS-P Strategy selects Process 0 with time: 9400 mSec 
+Time:  0.241971, OS: Process 0 set in Running state
+Time:  0.241978, Process 0, keyboard input start
+Time:  0.242196, OS: Process 0 set in Blocked state
+Time:  0.242209, Processor/System Idle start
+Time:  0.257734, Processor/System Idle end
+
+Time:  0.257760, OS: FCFS-P Strategy selects Process 1 with time: 3960 mSec 
+Time:  0.257776, OS: Process 1 set in Running state
+Time:  0.257791, Process 1, monitor output start
+Time:  0.258538, OS: Process 1 set in Blocked state
+Time:  0.258554, Processor/System Idle start
+Time:  0.288510, Processor/System Idle end
+
+Time:  0.288520, OS: FCFS-P Strategy selects Process 3 with time: 2720 mSec 
+Time:  0.288530, OS: Process 3 set in Running state
+Time:  0.288537, Process 3, hard drive output start
+Time:  0.288688, OS: Process 3 set in Blocked state
+Time:  0.288697, Processor/System Idle start
+Time:  0.304032, Processor/System Idle end
+
+Time:  0.304050, OS: FCFS-P Strategy selects Process 4 with time: 2560 mSec 
+Time:  0.304086, OS: Process 4 set in Running state
+Time:  0.304095, Process 4, Run operation start
+Time:  0.304102, OS: Process 4 set in Ready state
+
+Time:  0.304108, OS: FCFS-P Strategy selects Process 4 with time: 2420 mSec 
+Time:  0.304118, OS: Process 4 set in Running state
+Time:  0.304124, Process 4, Run operation start
+Time:  0.304129, OS: Process 4 set in Ready state
+
+Time:  0.304133, OS: FCFS-P Strategy selects Process 4 with time: 2330 mSec 
+Time:  0.304139, OS: Process 4 set in Running state
+Time:  0.304143, Process 4, hard drive input start
+Time:  0.304275, OS: Process 4 set in Blocked state
+Time:  0.304284, Processor/System Idle start
+Time:  0.320055, Processor/System Idle end
+
+Time:  0.320069, OS: FCFS-P Strategy selects Process 1 with time: 3680 mSec 
+Time:  0.320080, OS: Process 1 set in Running state
+Time:  0.320086, Process 1, Run operation start
+Time:  0.320093, OS: Process 1 set in Ready state
+
+Time:  0.320099, OS: FCFS-P Strategy selects Process 1 with time: 3630 mSec 
+Time:  0.320109, OS: Process 1 set in Running state
+Time:  0.320115, Process 1, Run operation start
+Time:  0.320121, OS: Process 1 set in Ready state
+
+Time:  0.320126, OS: FCFS-P Strategy selects Process 1 with time: 3550 mSec 
+Time:  0.320134, OS: Process 1 set in Running state
+Time:  0.320140, Process 1, hard drive input start
+Time:  0.320280, OS: Process 1 set in Blocked state
+Time:  0.320287, Processor/System Idle start
+Time:  0.366626, Processor/System Idle end
+
+Time:  0.366644, OS: FCFS-P Strategy selects Process 4 with time: 2030 mSec 
+Time:  0.366654, OS: Process 4 set in Running state
+Time:  0.366660, Process 4, Run operation start
+Time:  0.366668, OS: Process 4 set in Ready state
+
+Time:  0.366676, OS: FCFS-P Strategy selects Process 4 with time: 1890 mSec 
+Time:  0.366688, OS: Process 4 set in Running state
+Time:  0.366696, Process 4, printer output start
+Time:  0.366816, OS: Process 4 set in Blocked state
+
+Time:  0.366824, OS: FCFS-P Strategy selects Process 2 with time: 7520 mSec 
+Time:  0.366832, OS: Process 2 set in Running state
+Time:  0.366838, Process 2, hard drive input start
+Time:  0.366917, OS: Process 2 set in Blocked state
+Time:  0.366924, Processor/System Idle start
+Time:  0.382147, Processor/System Idle end
+
+Time:  0.382158, OS: FCFS-P Strategy selects Process 3 with time: 2240 mSec 
+Time:  0.382169, OS: Process 3 set in Running state
+Time:  0.382176, Process 3, keyboard input start
+Time:  0.382304, OS: Process 3 set in Blocked state
+Time:  0.382312, Processor/System Idle start
+Time:  0.444740, Processor/System Idle end
+
+Time:  0.444752, OS: FCFS-P Strategy selects Process 2 with time: 7100 mSec 
+Time:  0.444763, OS: Process 2 set in Running state
+Time:  0.444769, Process 2, hard drive output start
+Time:  0.445477, OS: Process 2 set in Blocked state
+Time:  0.445484, Processor/System Idle start
+Time:  0.460763, Processor/System Idle end
+
+Time:  0.460779, OS: FCFS-P Strategy selects Process 1 with time: 2770 mSec 
+Time:  0.460791, OS: Process 1 set in Running state
+Time:  0.460798, Process 1, hard drive input start
+Time:  0.460971, OS: Process 1 set in Blocked state
+Time:  0.460980, Processor/System Idle start
+Time:  0.554396, Processor/System Idle end
+
+Time:  0.554414, OS: FCFS-P Strategy selects Process 1 with time: 2410 mSec 
+Time:  0.554424, OS: Process 1 set in Running state
+Time:  0.554432, Process 1, printer output start
+Time:  0.554599, OS: Process 1 set in Blocked state
+
+Time:  0.554607, OS: FCFS-P Strategy selects Process 0 with time: 7800 mSec 
+Time:  0.554614, OS: Process 0 set in Running state
+Time:  0.554619, Process 0, hard drive input start
+Time:  0.554722, OS: Process 0 set in Blocked state
+Time:  0.554731, Processor/System Idle start
+Time:  0.569917, Processor/System Idle end
+
+Time:  0.569929, OS: FCFS-P Strategy selects Process 4 with time: 890 mSec 
+Time:  0.569939, OS: Process 4 set in Running state
+Time:  0.569946, Process 4, hard drive output start
+Time:  0.570102, OS: Process 4 set in Blocked state
+Time:  0.570112, Processor/System Idle start
+Time:  0.585436, Processor/System Idle end
+
+Time:  0.585450, OS: FCFS-P Strategy selects Process 3 with time: 1240 mSec 
+Time:  0.585461, OS: Process 3 set in Running state
+Time:  0.585467, Process 3, Run operation start
+Time:  0.585475, OS: Process 3 set in Ready state
+
+Time:  0.585482, OS: FCFS-P Strategy selects Process 3 with time: 1110 mSec 
+Time:  0.585492, OS: Process 3 set in Running state
+Time:  0.585497, Process 3, hard drive output start
+Time:  0.585643, OS: Process 3 set in Blocked state
+Time:  0.585651, Processor/System Idle start
+Time:  0.616982, Processor/System Idle end
+
+Time:  0.616993, OS: FCFS-P Strategy selects Process 0 with time: 7440 mSec 
+Time:  0.617004, OS: Process 0 set in Running state
+Time:  0.617011, Process 0, hard drive output start
+Time:  0.617772, OS: Process 0 set in Blocked state
+Time:  0.617783, Processor/System Idle start
+Time:  0.632514, Processor/System Idle end
+
+Time:  0.632527, OS: FCFS-P Strategy selects Process 2 with time: 6200 mSec 
+Time:  0.632537, OS: Process 2 set in Running state
+Time:  0.632543, Process 2, printer output start
+Time:  0.632691, OS: Process 2 set in Blocked state
+Time:  0.632701, Processor/System Idle start
+Time:  0.648043, Processor/System Idle end
+
+Time:  0.648067, OS: FCFS-P Strategy selects Process 3 with time: 810 mSec 
+Time:  0.648078, OS: Process 3 set in Running state
+Time:  0.648086, Process 3, Run operation start
+Time:  0.648098, OS: Process 3 set in Ready state
+
+Time:  0.648106, OS: FCFS-P Strategy selects Process 3 with time: 720 mSec 
+Time:  0.648121, OS: Process 3 set in Running state
+Time:  0.648129, Process 3, hard drive input start
+Time:  0.648351, OS: Process 3 set in Blocked state
+
+Time:  0.648361, OS: FCFS-P Strategy selects Process 4 with time: 470 mSec 
+Time:  0.648371, OS: Process 4 set in Running state
+Time:  0.648378, Process 4, hard drive input start
+Time:  0.648486, OS: Process 4 set in Blocked state
+Time:  0.648495, Processor/System Idle start
+Time:  0.726190, Processor/System Idle end
+
+Time:  0.726234, OS: FCFS-P Strategy selects Process 4 with time: 50 mSec 
+Time:  0.726252, OS: Process 4 set in Running state
+Time:  0.726261, Process 4, Run operation start
+Time:  0.726273, OS: Process 4 set in Ready state
+
+Time:  0.726283, OS: FCFS-P Strategy selects Process 4 with time: 0 mSec 
+Time:  0.726300, OS: Process 4 set in Running state
+Time:  0.726310, OS: Process 4 set in Exit state
+Time:  0.726321, Processor/System Idle start
+Time:  0.773238, Processor/System Idle end
+
+Time:  0.773276, OS: FCFS-P Strategy selects Process 0 with time: 6660 mSec 
+Time:  0.773299, OS: Process 0 set in Running state
+Time:  0.773310, Process 0, hard drive output start
+Time:  0.775701, OS: Process 0 set in Blocked state
+Time:  0.775722, Processor/System Idle start
+Time:  0.804256, Processor/System Idle end
+
+Time:  0.804280, OS: FCFS-P Strategy selects Process 3 with time: 0 mSec 
+Time:  0.804292, OS: Process 3 set in Running state
+Time:  0.804299, OS: Process 3 set in Exit state
+
+Time:  0.804308, OS: FCFS-P Strategy selects Process 1 with time: 1110 mSec 
+Time:  0.804321, OS: Process 1 set in Running state
+Time:  0.804327, Process 1, keyboard input start
+Time:  0.804481, OS: Process 1 set in Blocked state
+Time:  0.804489, Processor/System Idle start
+Time:  0.866843, Processor/System Idle end
+
+Time:  0.866857, OS: FCFS-P Strategy selects Process 2 with time: 5100 mSec 
+Time:  0.866866, OS: Process 2 set in Running state
+Time:  0.866870, Process 2, Run operation start
+Time:  0.866876, OS: Process 2 set in Ready state
+
+Time:  0.866880, OS: FCFS-P Strategy selects Process 2 with time: 4980 mSec 
+Time:  0.866888, OS: Process 2 set in Running state
+Time:  0.866893, Process 2, Run operation start
+Time:  0.866898, OS: Process 2 set in Ready state
+
+Time:  0.866903, OS: FCFS-P Strategy selects Process 2 with time: 4900 mSec 
+Time:  0.866910, OS: Process 2 set in Running state
+Time:  0.866914, Process 2, keyboard input start
+Time:  0.867115, OS: Process 2 set in Blocked state
+Time:  0.867122, Processor/System Idle start
+Time:  0.944960, Processor/System Idle end
+
+Time:  0.944975, OS: FCFS-P Strategy selects Process 0 with time: 6000 mSec 
+Time:  0.944987, OS: Process 0 set in Running state
+Time:  0.944995, Process 0, printer output start
+Time:  0.945158, OS: Process 0 set in Blocked state
+Time:  0.945167, Processor/System Idle start
+Time:  1.069634, Processor/System Idle end
+
+Time:  1.069647, OS: FCFS-P Strategy selects Process 1 with time: 110 mSec 
+Time:  1.069656, OS: Process 1 set in Running state
+Time:  1.069661, Process 1, Run operation start
+Time:  1.069666, OS: Process 1 set in Ready state
+
+Time:  1.069670, OS: FCFS-P Strategy selects Process 1 with time: 0 mSec 
+Time:  1.069680, OS: Process 1 set in Running state
+Time:  1.069685, OS: Process 1 set in Exit state
+Time:  1.069689, Processor/System Idle start
+Time:  1.194818, Processor/System Idle end
+
+Time:  1.194833, OS: FCFS-P Strategy selects Process 0 with time: 5200 mSec 
+Time:  1.194846, OS: Process 0 set in Running state
+Time:  1.194853, Process 0, keyboard input start
+Time:  1.195059, OS: Process 0 set in Blocked state
+Time:  1.195068, Processor/System Idle start
+Time:  1.491823, Processor/System Idle end
+
+Time:  1.491854, OS: FCFS-P Strategy selects Process 2 with time: 2900 mSec 
+Time:  1.491872, OS: Process 2 set in Running state
+Time:  1.491879, Process 2, keyboard input start
+Time:  1.492325, OS: Process 2 set in Blocked state
+Time:  1.492334, Processor/System Idle start
+Time:  1.944933, Processor/System Idle end
+
+Time:  1.944946, OS: FCFS-P Strategy selects Process 0 with time: 3000 mSec 
+Time:  1.944958, OS: Process 0 set in Running state
+Time:  1.944964, Process 0, keyboard input start
+Time:  1.945123, OS: Process 0 set in Blocked state
+Time:  1.945130, Processor/System Idle start
+Time:  2.179269, Processor/System Idle end
+
+Time:  2.179282, OS: FCFS-P Strategy selects Process 2 with time: 900 mSec 
+Time:  2.179294, OS: Process 2 set in Running state
+Time:  2.179300, Process 2, hard drive input start
+Time:  2.179478, OS: Process 2 set in Blocked state
+Time:  2.179487, Processor/System Idle start
+Time:  2.491787, Processor/System Idle end
+
+Time:  2.491829, OS: FCFS-P Strategy selects Process 2 with time: 0 mSec 
+Time:  2.491854, OS: Process 2 set in Running state
+Time:  2.491867, OS: Process 2 set in Exit state
+Time:  2.491880, Processor/System Idle start
+Time:  2.695013, Processor/System Idle end
+
+Time:  2.695026, OS: FCFS-P Strategy selects Process 0 with time: 1000 mSec 
+Time:  2.695034, OS: Process 0 set in Running state
+Time:  2.695038, Process 0, keyboard input start
+Time:  2.695211, OS: Process 0 set in Blocked state
+Time:  2.695218, Processor/System Idle start
+Time:  3.194733, Processor/System Idle end
+
+Time:  3.194748, OS: FCFS-P Strategy selects Process 0 with time: 0 mSec 
+Time:  3.194759, OS: Process 0 set in Running state
+Time:  3.194766, OS: Process 0 set in Exit state
+Time:  3.194773, System stop
